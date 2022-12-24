@@ -1,0 +1,92 @@
+
+
+strong {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+em {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: red;
+}
+
+#title_sec {
+  background-color: #FFDCA9;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 10rem 0 2rem;
+  display: flexbox;
+}
+
+.row{
+  padding-bottom: 0;
+}
+
+#middle_sec {
+  background-color: #FAF8F1;;
+  text-align: center;
+  padding: 2rem 10rem;
+}
+
+#Interviews-sec {
+  background-color: #E5BA73;
+  text-align: center;
+  padding: 2rem 10rem;
+}
+
+object.click {
+
+}
+
+#bottom_sec {
+  background-color: #FAF8F1;
+  text-align: center;
+  padding: 2rem 10rem;
+}
+
+img {
+  width: 60%;
+  height: 20%;
+}
+
+p {
+  width: 90%;
+  padding-bottom: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  
+}
+object {
+  height: 70%;
+  width: 100%;
+}
+
+div{
+  padding-bottom: 3rem;
+}
+
+
+iframe:hover{
+  width: 80%;
+  height: 100%;
+  display: flexbox;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  left: 0;
+}
+
+.fa-up:hover{
+  
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+
+}
+
+.fa-down:hover{
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
