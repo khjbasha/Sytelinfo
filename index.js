@@ -1,14 +1,17 @@
+$('.fa-up').mouseenter(function () {
+var currentValue = parseInt(document.querySelector(".faUp-val").textContent)
+console.log(currentValue);
+currentValue= (currentValue )+1;
+console.log(currentValue);
+document.querySelector(".faUp-val").innerText = currentValue;
+console.log(currentValue);
+});
 
-$(".fa-up").hover(function faup_add(){
-  var val_old = $(".faUp-val").val();
-  val_old=val_old+21;
-  $(".faUp-val").html(val_old);
+$('.fa-down').mouseenter(function () {
+  var currentValue = parseInt(document.querySelector(".faDown-val").textContent)
+  console.log(currentValue);
+  currentValue= (currentValue )+1;
+  console.log(currentValue);
+  document.querySelector(".faDown-val").innerText = currentValue;
+  console.log(currentValue);
   });
-
-document.getElementsByClassName('.fa-up').addEventListener('click',faup_add())
-
-  function faup_add(){
-    var val_old = $(".faUp-val").val();
-    val_old=val_old+21;
-    $(".faUp-val").html(val_old);
-    };
